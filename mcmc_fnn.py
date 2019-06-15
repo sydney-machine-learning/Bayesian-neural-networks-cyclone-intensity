@@ -303,8 +303,8 @@ def main():
 
        
         if problem == 3:
-            traindata = np.loadtxt("Data/South_Pacific/train.txt")
-            testdata = np.loadtxt("Data/South_Pacific/test.txt")  # 
+            traindata = np.loadtxt("train.txt")
+            testdata = np.loadtxt("test.txt")  # 
 
         print(traindata)
 
